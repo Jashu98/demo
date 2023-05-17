@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "jashu98/tag"
+    dockerimagename = "bravinwasike/react-app"
     dockerImage = ""
   }
 
@@ -10,7 +10,7 @@ pipeline {
   stages {
    stage('Checkout Source') {
       steps {
-        git 'https://github.com/Jashu98/demo.git'
+        git 'https://github.com/Bravinsimiyu/jenkins-kubernetes-deployment.git'
       }
     }
 
